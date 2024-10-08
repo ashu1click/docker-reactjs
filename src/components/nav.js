@@ -21,7 +21,7 @@ export default class Nav extends Component {
         },
         body: JSON.stringify({
           username: 'cp_deviare_admin',
-          password: 'Deviare@2024!@#'
+          password: 'cpadmin8090'
         })
       });
      
