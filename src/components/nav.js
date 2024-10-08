@@ -7,7 +7,7 @@ export default class Nav extends Component {
  
   callAuthorizeAPI = async () => {
     try {
-      const response = await fetch('https://admin-staging.deviare.africa/api/authorize', {
+      const response = await fetch('http://127.0.0.1:8000/api/authorize', {
         method: 'POST',
         headers: {
           'sec-ch-ua-platform': '"Windows"',
